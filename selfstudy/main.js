@@ -21,29 +21,29 @@
 // const hello='My name is ${name} anad I am ${age}';
 // console.log(hello);
 
-const s = 'Hello world';
-console.log((s.length));
-console.log((s.toUpperCase()));
-console.log((s.toLowerCase()));
-console.log((s.substring(0,5).toUpperCase()));
-console.log((s.split('')));
-const ss = 'technology,computers,it,code'
-console.log(ss.split(','));
+// const s = 'Hello world';
+// console.log((s.length));
+// console.log((s.toUpperCase()));
+// console.log((s.toLowerCase()));
+// console.log((s.substring(0,5).toUpperCase()));
+// console.log((s.split('')));
+// const ss = 'technology,computers,it,code'
+// console.log(ss.split(','));
 
-//Arrays -variables that hold multipe values
+// //Arrays -variables that hold multipe values
 
-const numbers = new Array(1,2,3,4,5);
-const fruits=['apple','orange','pears'];
-console.log(fruits);
-console.log(numbers);
-console.log(fruits[1]);
-fruits.push("grapes");
-console.log(fruits[3]);
-fruits.unshift('banana');
-fruits.pop();
-console.log(Array.isArray('hello'));
-console.log(fruits.indexOf('orange'));
-console.log(fruits);
+// const numbers = new Array(1,2,3,4,5);
+// const fruits=['apple','orange','pears'];
+// console.log(fruits);
+// console.log(numbers);
+// console.log(fruits[1]);
+// fruits.push("grapes");
+// console.log(fruits[3]);
+// fruits.unshift('banana');
+// fruits.pop();
+// console.log(Array.isArray('hello'));
+// console.log(fruits.indexOf('orange'));
+// console.log(fruits);
 
 
 // object 
@@ -67,38 +67,57 @@ console.log(fruits);
 
 //TODO
 
-const todos=[
-    {
-        id:1,
-        text:"Take out trash",
-        isCompleted:true
-    },
-    {
-        id:2,
-        text:"Go to the bed",
-        isCompleted:true
-    },
-    {
-        id:3,
-        text:"do your homework",
-        isCompleted:false
-    },
+// const todos=[
+//     {
+//         id:1,
+//         text:"Take out trash",
+//         isCompleted:true
+//     },
+//     {
+//         id:2,
+//         text:"Go to the bed",
+//         isCompleted:true
+//     },
+//     {
+//         id:3,
+//         text:"do your homework",
+//         isCompleted:false
+//     },
 
-];
-console.log(todos[1].text);
+// ];
+// console.log(todos[1].text);
 
-//For
+// //For
 
-for(let i=0; i<=10; i++)
-{ console.log(`For Loop Number: ${i}`);}
-
-
-//while
-
-let i=0;
-while(i<10){console.log(`while Loop Number: ${i}`);i++;}
+// for(let i=0; i<=10; i++)
+// { console.log(`For Loop Number: ${i}`);}
 
 
+// //while
+
+// let i=0;
+// while(i<10){console.log(`while Loop Number: ${i}`);i++;}
+
+
+
+console.log('\n*** Some builtin Math functions ***');
+console.log('Math.floor(10.7)', Math.floor(10.7));
+console.log('Math.floor(10.3)', Math.floor(10.3));
+console.log('Math.floor(-10.7)', Math.floor(-10.7));
+console.log('Math.floor(-10.3)', Math.floor(-10.3));
+console.log('Math.ceil(10.7)', Math.ceil(10.7));
+console.log('Math.ceil(10.3)', Math.ceil(10.3));
+console.log('Math.ceil(-10.7)', Math.ceil(-10.7));
+console.log('Math.ceil(-10.3)', Math.ceil(-10.3));
+console.log('Math.trunc(10.7)', Math.trunc(10.7));
+console.log('Math.trunc(10.3)', Math.trunc(10.3));
+console.log('Math.trunc(-10.7)', Math.trunc(-10.7));
+console.log('Math.trunc(-10.3)', Math.trunc(-10.3));
+console.log('Math.round(10.7)', Math.round(10.7));
+console.log('Math.round(10.3)', Math.round(10.3));
+console.log('Math.round(-10.7)', Math.round(-10.7));
+console.log('Math.round(-10.3)', Math.round(-10.3));
+console.log('Math.random()', Math.random());
 
 
 
