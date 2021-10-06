@@ -104,11 +104,64 @@ console.log(userName&&console.log(`MErhaba ${userName}`));*/
 // console.log(text);
 
 
-let password='wpewoqpeiqwp'
-if (password.length >=5 && password.includes('@')){
-    console.log('that password is strong');
+// let password='wpewoqpeiqwp'
+// if (password.length >=5 && password.includes('@')){
+//     console.log('that password is strong');
 
-}
-else{
-    console.log('password is not long enough');
+// }
+// else{
+//     console.log('password is not long enough');
+// }
+
+///////////     LOOPS   /////
+// let i=0;
+// let sum=0;
+// while(i,11){
+//     sum+=i;
+//     console.log(sum);
+//     i++
+// }
+
+
+// let i=5;
+// let sum=0
+// do {
+//     sum+=i;
+//     i++;
+// }
+
+// while (i<5);
+// console.log(sum);
+
+// ///  for loop    ////
+
+// let text="Clarusway";
+// for (let i=0;i<text.length;i++){
+//     console.log(text[i]);
+// }
+
+
+// sum=0;
+// for (let i=0;i<=10;i++){
+//     sum+=i;
+//     console.log(sum);
+// }
+
+
+// let sum=0;
+// for(let i=0; i<=10;i++){
+//     if (i%2==0){
+//         console.log(i);
+//     }
+// }
+
+/////sayi 3 e bolunurse fizzz 5 ee bolunurse buz 15 e  bolunurse fizz buz
+
+for (let i=3; i<100; i++){
+    if (i%3==0 && i%5==0){
+        console.log(i,"fizzbuzz");}
+    else if(i%5==0){
+        console.log(i,"buzz");}
+    else if(i%3==0){
+        console.log(i,"fizz");}
 }
