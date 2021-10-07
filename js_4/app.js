@@ -157,11 +157,43 @@ console.log(userName&&console.log(`MErhaba ${userName}`));*/
 
 /////sayi 3 e bolunurse fizzz 5 ee bolunurse buz 15 e  bolunurse fizz buz
 
-for (let i=3; i<100; i++){
-    if (i%3==0 && i%5==0){
-        console.log(i,"fizzbuzz");}
-    else if(i%5==0){
-        console.log(i,"buzz");}
-    else if(i%3==0){
-        console.log(i,"fizz");}
-}
+// for (let i=3; i<100; i++){
+//     if (i%3==0 && i%5==0){
+//         console.log(i,"fizzbuzz");}
+//     else if(i%5==0){
+//         console.log(i,"buzz");}
+//     else if(i%3==0){
+//         console.log(i,"fizz");}
+// }
+
+
+// /////// find prime numer  //////////////
+//  for (let counter = 0; counter <= 100; counter++) {
+
+//     var notPrime = false;
+//     for (let i = 2; i <= counter; i++) {
+//         if (counter%i===0 && i!==counter) {
+//             notPrime = true;
+//         }
+//     }
+//     if (notPrime === false) {
+//                 console.log(counter);
+//     }
+// }
+    
+    for(let sayi=2 ; sayi<100; sayi++){
+        var sonuc=true;
+            for(let i=2;i<sayi;i++){
+                if(sayi%i==0){
+                   sonuc=false;
+                    break;
+                }
+                
+               
+            }  
+        if(sonuc){console.log(sayi);}    
+    }
+            
+    
+       
+    
