@@ -100,24 +100,41 @@
 
 
 
-console.log('\n*** Some builtin Math functions ***');
-console.log('Math.floor(10.7)', Math.floor(10.7));
-console.log('Math.floor(10.3)', Math.floor(10.3));
-console.log('Math.floor(-10.7)', Math.floor(-10.7));
-console.log('Math.floor(-10.3)', Math.floor(-10.3));
-console.log('Math.ceil(10.7)', Math.ceil(10.7));
-console.log('Math.ceil(10.3)', Math.ceil(10.3));
-console.log('Math.ceil(-10.7)', Math.ceil(-10.7));
-console.log('Math.ceil(-10.3)', Math.ceil(-10.3));
-console.log('Math.trunc(10.7)', Math.trunc(10.7));
-console.log('Math.trunc(10.3)', Math.trunc(10.3));
-console.log('Math.trunc(-10.7)', Math.trunc(-10.7));
-console.log('Math.trunc(-10.3)', Math.trunc(-10.3));
-console.log('Math.round(10.7)', Math.round(10.7));
-console.log('Math.round(10.3)', Math.round(10.3));
-console.log('Math.round(-10.7)', Math.round(-10.7));
-console.log('Math.round(-10.3)', Math.round(-10.3));
-console.log('Math.random()', Math.random());
+// console.log('\n*** Some builtin Math functions ***');
+// console.log('Math.floor(10.7)', Math.floor(10.7));
+// console.log('Math.floor(10.3)', Math.floor(10.3));
+// console.log('Math.floor(-10.7)', Math.floor(-10.7));
+// console.log('Math.floor(-10.3)', Math.floor(-10.3));
+// console.log('Math.ceil(10.7)', Math.ceil(10.7));
+// console.log('Math.ceil(10.3)', Math.ceil(10.3));
+// console.log('Math.ceil(-10.7)', Math.ceil(-10.7));
+// console.log('Math.ceil(-10.3)', Math.ceil(-10.3));
+// console.log('Math.trunc(10.7)', Math.trunc(10.7));
+// console.log('Math.trunc(10.3)', Math.trunc(10.3));
+// console.log('Math.trunc(-10.7)', Math.trunc(-10.7));
+// console.log('Math.trunc(-10.3)', Math.trunc(-10.3));
+// console.log('Math.round(10.7)', Math.round(10.7));
+// console.log('Math.round(10.3)', Math.round(10.3));
+// console.log('Math.round(-10.7)', Math.round(-10.7));
+// console.log('Math.round(-10.3)', Math.round(-10.3));
+// console.log('Math.random()', Math.random());
 
+// function solution(N) {
+//     const binary = N.toString(2);
+//     return binary
+//             .split('1')
+//             .reduce((maxGap, item, index, array) => {
+//                 if(item 
+//                     && item.length > maxGap 
+//                     && array[index-1] !== undefined 
+//                     && array[index+1] !== undefined) return item.length;
+//                 return maxGap;
+//             }, 0);
+// }
+
+
+// function helloWorld(){
+//     var selam="Hello World!"
+//     console.log(selam)}
 
 
