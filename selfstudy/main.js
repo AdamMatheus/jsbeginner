@@ -137,4 +137,8 @@
 //     var selam="Hello World!"
 //     console.log(selam)}
 
-
+function reverseWords(str) {
+    return str.split('').reverse().join('').split(' ').reverse().join(' ');} 
+   console.log(reverseWords('Hayirli Cumalar'));
+    
+    
