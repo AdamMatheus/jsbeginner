@@ -26,7 +26,7 @@
 //     return a;
 // }
 
-// let myNum=4;
+let myNum=4;
 
 // console.log(square(myNum));
 // console.log(myNum);
