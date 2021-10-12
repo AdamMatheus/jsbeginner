@@ -137,8 +137,34 @@
 //     var selam="Hello World!"
 //     console.log(selam)}
 
-function reverseWords(str) {
-    return str.split('').reverse().join('').split(' ').reverse().join(' ');} 
-   console.log(reverseWords('Hayirli Cumalar'));
+// function reverseWords(str) {
+//     return str.split('').reverse().join('').split(' ').reverse().join(' ');} 
+//    console.log(reverseWords('Hayirli Cumalar'));
     
-    
+    // function checkPronic(x)
+// {
+ 
+//     for (var i = 0;
+//             i <= parseInt(Math.sqrt(x));
+//             i++)
+//         if (x == i * (i + 1))
+//         return true;
+ 
+//     return false;
+// }
+ 
+// for (var i = 0; i <= 1000000; i++)
+//     if (checkPronic(i))
+//         document.write(i + " ");
+
+
+// function solution(Basket, Red, Green)
+// function solution(A, K, L)
+// { for (let i=2;i<100;i++) {
+//     return (K[i] + L[i]) - A[i] + 1;}
+// }
+ 
+
+// var A =[1,500], K =[1,N-1], L =[1,N-1];
+ 
+// document.write("Maximum apple kept is = " + solution(A, K, L));
