@@ -126,12 +126,13 @@
 //     n2=str.indexOf("and");
     //    str.indexof("k",n)//it start search from 4th position
 
-const artc="The to indefinite article takes two forms. It’s the to word a when it precedes a word that begins with a consonant. It’s the word an when it precedes a word that begins with a vowel. The indefinite article indicates that a noun refers to a general idea rather than a particular thing. For example, you might ask your friend, Should I bring a to gift to the party? Your friend will understand that you are not asking about a specific  to type of gift or a specific item. I am going to bring an apple pie, your friend tells you. Again, the indefinite to article indicates that she is not talking about a specific apple pie. Your friend probably doesn’t even have any pie yet. The indefinite article only appears with singular nouns. Consider the following examples of indefinite articles used in context";
-
+const artc="link:https://app.slack.com/client/T02E1MNKZJR/C02EHB5L7TK";
+console.log(artc.link("https://app.slack.com/client/T02E1MNKZJR/C02EHB5L7TK"));
+characterWanted=prompt("Index numaralarini aramak istediginiz karakter yada kelimeyi giriniz");
 
 let to_Index=[]
 for(var i=0; i<artc.length;i++){
-    if(artc[i]==artc.indexOf("to")){
+    if(i==artc.indexOf(`${characterWanted}`,i)){
         to_Index.push(i)
     } 
 }
