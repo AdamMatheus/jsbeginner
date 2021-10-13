@@ -168,3 +168,7 @@
 // var A =[1,500], K =[1,N-1], L =[1,N-1];
  
 // document.write("Maximum apple kept is = " + solution(A, K, L));
+
+function reverseWords(str) {
+    return str.split('').reverse().join('')} 
+   console.log(reverseWords('Hayirli Cumalar'));
