@@ -126,8 +126,8 @@
 //     n2=str.indexOf("and");
     //    str.indexof("k",n)//it start search from 4th position
 
-const artc="link:https://app.slack.com/client/T02E1MNKZJR/C02EHB5L7TK";
-console.log(artc.link("https://app.slack.com/client/T02E1MNKZJR/C02EHB5L7TK"));
+const artc="The to indefinite article takes two forms. It’s the to word a when it precedes a word that begins with a consonant. It’s the word an when it precedes a word that begins with a vowel. The indefinite article indicates that a noun refers to a general idea rather than a particular thing. For example, you might ask your friend, Should I bring a to gift to the party? Your friend will understand that you are not asking about a specific  to type of gift or a specific item.";
+console.log(artc);
 characterWanted=prompt("Index numaralarini aramak istediginiz karakter yada kelimeyi giriniz");
 
 let to_Index=[]
