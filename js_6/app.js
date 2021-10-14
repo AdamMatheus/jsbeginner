@@ -147,5 +147,20 @@ else{
     alert("lutfen 1 yada 2 seciniz");
 }
 
-
+var ans1=prompt("Hangi ceviriciyi kullanmak istiyorsun? 1. Celsius>>Fahrenheit , 2.Fahrenheit>>Celsius?");
+if (ans1==1 || ans1==2) {
+    var ans2=prompt("sicaklik degeri kac?");
+    if(isNaN(ans2)){
+        alert("YANLIS GIRIS!Lutfen SAYI DEGERI giriniz ")
+    }
+    else{
+    temp=()=>{return(ans1==1 ?
+        alert(ans2*9/5 + 32+" "+ " F"):
+        alert((ans2-32)*5/9+" "+ ' C')
+        );}            
+    temp(ans2);}
+}
+else{
+    alert("lutfen 1 yada 2 seciniz");
+}
                 
