@@ -138,7 +138,7 @@
 // }
 // console.log(to_Index)
     
-// const str = "・Welcome to ・StackOverFlow ・Best Regards";
+ //var str = "・Welcome to ・StackOverFlow ・Best Regards";
 
 // let bulletIndex = []
 
@@ -149,6 +149,3 @@
 // }
 
 // console.log(bulletIndex)
-
-
-

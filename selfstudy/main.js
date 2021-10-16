@@ -169,6 +169,28 @@
  
 // document.write("Maximum apple kept is = " + solution(A, K, L));
 
-function reverseWords(str) {
-    return str.split('').reverse().join('')} 
-   console.log(reverseWords('Hayirli Cumalar'));
+// function reverseWords(str) {
+//     return str.split('').reverse().join('')} 
+//    console.log(reverseWords('Hayirli Cumalar'));
+
+
+
+
+////-------------------------------//////////
+// function addbinary(a,b){c=a+b;
+//     if(c>=0){
+//         return c.toString(2)
+//     }
+//     else{
+//         return (~c).toString(2);
+//     }
+   
+// }
+// console.log(addbinary(3,5));
+///--------------------------------------////////
+
+
+/////////-------------/////////////////////
+// var n=prompt('sayi gir')
+// f=n => n<=1 ? n:f(n-2)+f(n-1)
+// alert(`${n}.adimda fibo = ${f(n)}`);
