@@ -194,3 +194,13 @@
 // var n=prompt('sayi gir')
 // f=n => n<=1 ? n:f(n-2)+f(n-1)
 // alert(`${n}.adimda fibo = ${f(n)}`);
+
+
+
+var str=prompt('bir cumle yaz')
+// function reverseWords(str){
+//     return str.split('').reverse().join('-')
+// }console.log(reverseWords(str));
+
+f=str=> str.split('').reverse().join('-')
+alert(f(str))
