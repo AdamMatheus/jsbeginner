@@ -197,10 +197,19 @@
 
 
 
-var str=prompt('bir cumle yaz')
-// function reverseWords(str){
-//     return str.split('').reverse().join('-')
-// }console.log(reverseWords(str));
+// var str=prompt('bir cumle yaz')
+// // function reverseWords(str){
+// //     return str.split('').reverse().join('-')
+// // }console.log(reverseWords(str));
 
-f=str=> str.split('').reverse().join('-')
-alert(f(str))
+// f=str=> str.split('').reverse().join('-')
+// alert(f(str))
+
+
+function clr(){
+    if (true){
+        var a=5;
+    }
+    document.write(a);
+}
+clr();
