@@ -206,10 +206,50 @@
 // alert(f(str))
 
 
-function clr(){
-    if (true){
-        var a=5;
-    }
-    document.write(a);
-}
-clr();
+// function clr(){
+//     if (true){
+//         var a=5;
+//     }
+//     document.write(a);
+// }
+// clr();
+
+
+
+
+
+
+
+
+// var  re=prompt("email adresini giriniz")
+// const validateEmail = (email)  => {
+//     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+//     return re.test(email.toLowerCase());
+// }
+// alert(validateEmail(re));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const testString=prompt("bir cumle gir");
+const capitalizeString=string=>{
+    const splitString=string.split(" ");
+    const capitalizedStringArray= splitString.map( v=> v[0].toUpperCase()+v.slice(1));
+    const result=capitalizedStringArray.join(" ");
+    return result;
+};
+console.log(capitalizeString(testString)); 
+
+
+
