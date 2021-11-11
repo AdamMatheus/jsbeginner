@@ -77,3 +77,4 @@ const person = {
   // muezza.walk();
   muezza.weight = -5;
   console.log(muezza.weight);
+  console.log(object);
