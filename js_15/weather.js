@@ -1,7 +1,7 @@
 const form = document.querySelector('.top-banner form');
 const input = document.querySelector('.top-banner input');
 const msg = document.querySelector('.top-banner .msg');
-const list = document.querySelector('ajax-section .cities');
+const list = document.querySelector('.ajax-section .cities');
 
 localStorage.setItem('apikey', EncryptStringAES('4d8fb5b93d4af21d66a2948710284366'));
 
@@ -11,7 +11,7 @@ form.addEventListener('submit', (e) => {
 });
 
 const getWeatherDataFromApi = async () => {
-	let apikey = DecryptStingAES(localStorage.getItem('apikey'));
+	let apikey = DecryptStringAES(localStorage.getItem('apikey'));
 	let inputVal = input.value;
 	let weatherType = 'metric';
 	// console.log(apikey);
@@ -19,11 +19,12 @@ const getWeatherDataFromApi = async () => {
 
 	try {
 		const response = await axios.get(url);
+		// const response = await axios(url);
 
 		console.log(response);
 		const { main, name, sys, weather } = response.data;
 
-		const cityListItems = list.querySelector('.city');
+		const cityListItems = list.querySelectorAll('.city');
 		const cityListItemArray = Array.from(cityListItems);
 		console.log(cityListItemArray);
 		if (cityListItemArray.length > 0) {
@@ -32,8 +33,8 @@ const getWeatherDataFromApi = async () => {
 			);
 			if (filteredArray.length > 0) {
 				msg.innerText = `You already know the weather for ${filteredArray[0].querySelector('.city-name span')
-					.innerText},Please search for another city`;
-				form.requestFullscreen();
+					.innerText}, Please search for another city 😉`;
+				form.reset();
 				input.focus();
 				return;
 			}
@@ -45,7 +46,8 @@ const getWeatherDataFromApi = async () => {
 
 		const createdCityCardLi = document.createElement('li');
 		createdCityCardLi.classList.add('city');
-		const createdCityCardLiInnerH = `<h2 class="city-name" data-name="${name}, ${sys.country}">
+		const createdCityCardLiInnerH = `
+    <h2 class="city-name" data-name="${name}, ${sys.country}">
         <span>${name}</span>
         <sup>${sys.country}</sup>
     </h2>
@@ -59,7 +61,7 @@ const getWeatherDataFromApi = async () => {
 		list.appendChild(createdCityCardLi);
 
 		msg.innerText = '';
-		//form.reset()==>input.value="";
+		// form.reset() ==> input.value = "";
 		form.reset();
 		input.focus();
 	} catch (error) {
